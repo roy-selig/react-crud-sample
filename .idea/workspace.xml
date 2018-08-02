@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="386af1e0-3102-4ebe-9bdc-692d93619858" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="386af1e0-3102-4ebe-9bdc-692d93619858" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -51,7 +49,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="240" />
-          <entry key="gitignore" value="9" />
+          <entry key="gitignore" value="10" />
           <entry key="html" value="2" />
           <entry key="js" value="12003" />
           <entry key="json" value="249" />
@@ -66,7 +64,7 @@
           <entry key="JSON" value="249" />
           <entry key="JavaScript" value="12003" />
           <entry key="Markdown" value="3854" />
-          <entry key="PLAIN_TEXT" value="76" />
+          <entry key="PLAIN_TEXT" value="77" />
           <entry key="SCSS" value="4859" />
         </counts>
       </usages-collector>
@@ -171,7 +169,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -335,12 +333,12 @@
       <updated>1532778352902</updated>
       <workItem from="1532778354363" duration="684000" />
       <workItem from="1532792273602" duration="61594000" />
-      <workItem from="1533223177344" duration="4495000" />
+      <workItem from="1533223177344" duration="4551000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66773000" />
+    <option name="totallyTimeSpent" value="66829000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="131" y="23" width="1408" height="865" extended-state="0" />
@@ -614,7 +612,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
         </state>
       </provider>
     </entry>
