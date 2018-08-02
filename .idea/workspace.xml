@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="386af1e0-3102-4ebe-9bdc-692d93619858" name="Default Changelist" comment="" />
+    <list default="true" id="386af1e0-3102-4ebe-9bdc-692d93619858" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -25,7 +30,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="9" />
-          <entry key="gitignore" value="1" />
+          <entry key="gitignore" value="2" />
           <entry key="html" value="6" />
           <entry key="js" value="45" />
           <entry key="json" value="13" />
@@ -41,7 +46,7 @@
           <entry key="JSON" value="13" />
           <entry key="JavaScript" value="45" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="SCSS" value="24" />
           <entry key="SourceMap" value="2" />
         </counts>
@@ -49,10 +54,11 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="240" />
+          <entry key="gitignore" value="7" />
           <entry key="html" value="2" />
           <entry key="js" value="12003" />
           <entry key="json" value="249" />
-          <entry key="md" value="3915" />
+          <entry key="md" value="3921" />
           <entry key="scss" value="4859" />
         </counts>
       </usages-collector>
@@ -62,8 +68,8 @@
           <entry key="HTML" value="2" />
           <entry key="JSON" value="249" />
           <entry key="JavaScript" value="12003" />
-          <entry key="Markdown" value="3848" />
-          <entry key="PLAIN_TEXT" value="67" />
+          <entry key="Markdown" value="3854" />
+          <entry key="PLAIN_TEXT" value="74" />
           <entry key="SCSS" value="4859" />
         </counts>
       </usages-collector>
@@ -71,15 +77,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/clever-table-head-row.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/clever-table-header.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -161,14 +158,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="351">
-                <caret line="65" column="16" selection-end-line="68" selection-end-column="46" />
+              <first_editor relative-caret-position="307">
+                <caret line="25" column="97" selection-start-line="25" selection-start-column="97" selection-end-line="25" selection-end-column="97" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -193,6 +199,9 @@
       <replace>&quot;label&quot;:</replace>
       <replace>&quot;width&quot;:</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -224,6 +233,7 @@
         <option value="$PROJECT_DIR$/data/db.json" />
         <option value="$PROJECT_DIR$/src/components/clever-form.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -249,6 +259,7 @@
     <option name="width" value="1408" />
     <option name="height" value="865" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -327,17 +338,18 @@
       <updated>1532778352902</updated>
       <workItem from="1532778354363" duration="684000" />
       <workItem from="1532792273602" duration="61594000" />
-      <workItem from="1533223177344" duration="3788000" />
+      <workItem from="1533223177344" duration="4416000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66066000" />
+    <option name="totallyTimeSpent" value="66694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="131" y="23" width="1408" height="865" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17880318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17880318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -349,9 +361,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28848642" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28848642" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -395,9 +407,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-302" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/manifest.json">
       <provider selected="true" editor-type-id="text-editor" />
@@ -598,10 +607,17 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="351">
-            <caret line="65" column="16" selection-end-line="68" selection-end-column="46" />
+          <first_editor relative-caret-position="307">
+            <caret line="25" column="97" selection-start-line="25" selection-start-column="97" selection-end-line="25" selection-end-column="97" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
         </state>
       </provider>
     </entry>

@@ -23,7 +23,7 @@ The Web server runs on localhost via port 3000. This project was bootstrapped wi
 
 The API server runs on localhost via port 3004. The project uses [json-server](https://github.com/typicode/json-server).
 
-I use [Concurrently](https://www.npmjs.com/package/concurrently) to launch both servers via ``mpn start``
+I use [Concurrently](https://www.npmjs.com/package/concurrently) to launch both servers via ``npm start``
 
 I farmed the sample data from [Mackaroo](https://mockaroo.com/).
 
@@ -59,7 +59,7 @@ app/
 * **Export:** From the toolbar at top click `Export`. Note a new tab opens in your browser revealing the entire dataset in JSON format.
 * **Info Density:** From the toolbar click the right-most icon (high-density). Note the table is reflowed with cell-padding and font-size adjusted to fit more data on screen at once. Click the low-density icon to the left to revert the change.
 
-##Caveats
+## Caveats
 This code has not been optimized due to time constraints.  Areas for optimization include:
 
 1. Datasource optimization.  All the CRUD operations as well as filter and sort operations should be wrapped in a reusable class and passed to components as an object.  I started down this road (see `./components/datasource.js`). 
