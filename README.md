@@ -23,7 +23,9 @@ The Web server runs on localhost via port 3000. This project was bootstrapped wi
 
 The API server runs on localhost via port 3004. The project uses [json-server](https://github.com/typicode/json-server).
 
-I use [Concurrently](https://www.npmjs.com/package/concurrently) to launch both servers via ``npm start``
+I use [Concurrently](https://www.npmjs.com/package/concurrently) to launch both servers via ``npm start``. 
+
+I modified react-scripts to use [Opn](https://www.npmjs.com/package/opn), which launches your default browser and points it to the app once the web server has started.
 
 I farmed the sample data from [Mackaroo](https://mockaroo.com/).
 
