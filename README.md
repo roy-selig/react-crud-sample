@@ -27,7 +27,7 @@ I use [Concurrently](https://www.npmjs.com/package/concurrently) to launch both 
 
 I modified react-scripts to use [Opn](https://www.npmjs.com/package/opn), which launches your default browser and points it to the app once the web server has started.
 
-I farmed the sample data from [Mackaroo](https://mockaroo.com/).
+I farmed the sample data from [Mockaroo](https://mockaroo.com/).
 
 ## Folder Structure
 
