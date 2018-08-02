@@ -205,6 +205,7 @@ class App extends Component {
                 <CleverTable currentRowId={this.state.currentRowId}
                              setCurrentRow={this.setCurrentRow}
                              data={this.state}
+                             datasource={this.datasource}
                              handleSort={this.handleSort.bind(this)}/>
                 <CleverForm currentRowId={this.state.currentRowId}
                             updateRowData={this.updateRowData}

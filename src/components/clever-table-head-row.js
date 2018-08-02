@@ -21,7 +21,7 @@ export default class CleverTableHeadRow extends React.Component {
 
             var width = { "width": column.width };
             return (
-                <th style={ width }>
+                <th style={ width } key={column.key}>
                     <span style={ width } className="toolbar">
                         <span>{column.label}</span>
                         <span className="force-right"></span>

@@ -17,7 +17,7 @@ export default class CleverTableBodyRow extends React.Component {
             var value = self.props.row[ column.id ];
             var width = { "width": column.width };
             return (
-                <td title={value}><span style={ width }>
+                <td title={value} key={column.key}><span style={ width }>
                     { value ? value : "\u2014" }</span></td>
             );
         });

@@ -18,6 +18,7 @@ export default class CleverTable extends React.Component {
     componentDidMount() {
         //pass the requested ref here
         //console.log("REFS:", this.thead, this.tbody);
+        //console.log( this.props.datasource)
 
         var thead = this.thead;
         var tbody = this.tbody;

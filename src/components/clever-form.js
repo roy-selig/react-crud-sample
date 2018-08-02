@@ -46,7 +46,7 @@ export default class CleverForm extends React.Component {
                 case "read-only":
                     input = (
                         <input type="text"
-                               readonly
+                               readOnly
                                value={value}/>
                     );
                     break;
@@ -64,7 +64,8 @@ export default class CleverForm extends React.Component {
             }
 
             return (
-                <div className="clever-form-cell">
+                <div className="clever-form-cell"
+                     key={field.key}>
                     <div className="clever-form-label">{field.label}</div>
                     <div className="clever-form-field">
                         {input}

@@ -21,7 +21,8 @@ export default class CleverTableBody extends React.Component {
         var self = this;
         var rows = this.props.data.map(function( row , index){
             return (
-                <tr onClick={self.setCurrentRow.bind(this,row)}
+                <tr key={row.key}
+                    onClick={self.setCurrentRow.bind(this,row)}
                     className={ row.id == self.props.currentRowId ? "selected" : ""}
                     >
                     <CleverTableBodyRow row={row} columns={self.props.columns}></CleverTableBodyRow>
