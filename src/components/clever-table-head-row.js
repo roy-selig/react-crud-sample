@@ -17,7 +17,7 @@ export default class CleverTableHeadRow extends React.Component {
         var self = this;
         var cells = this.props.data.map(function( column , index){
 
-            if(column.type==="hidden") return;
+            if(column.type==="hidden") return (null);
 
             var width = { "width": column.width };
             return (

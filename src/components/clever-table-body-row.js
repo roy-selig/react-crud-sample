@@ -12,7 +12,7 @@ export default class CleverTableBodyRow extends React.Component {
         var self = this;
         var cells = this.props.columns.map(function( column , index ){
 
-            if(column.type==="hidden") return;
+            if(column.type==="hidden") return (null);
 
             var value = self.props.row[ column.id ];
             var width = { "width": column.width };
