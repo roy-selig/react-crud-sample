@@ -1,0 +1,101 @@
+table {
+  position: relative;
+  z-index: 1;
+  width: 1000px;
+  background-color: #F9F7F3;
+  overflow: hidden;
+  border-collapse: collapse;
+  border: 0 none;
+  border-bottom: 1px solid #E1DDCF; }
+
+/*thead*/
+thead {
+  position: relative;
+  display: block;
+  /*seperates the header from the body allowing it to be positioned*/
+  width: 1000px;
+  overflow: visible; }
+
+thead th {
+  background-color: #d7d2bf;
+  border-bottom: 1px solid #F9F7F3;
+  border-right: 1px solid #d7d2bf;
+  padding: 8px;
+  text-align: left;
+  font-weight: 700;
+  white-space: nowrap; }
+  thead th > span {
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden; }
+
+thead th:nth-child(1) {
+  /*first cell in the header*/
+  position: relative;
+  display: block;
+  /*seperates the first cell in the header from the header*/
+  background-color: #6C6656;
+  border-bottom: 1px;
+  border-right: 1px solid #6C6656;
+  color: #fff; }
+  thead th:nth-child(1) button {
+    color: #E1DDCF; }
+
+/*tbody*/
+tbody > tr > td {
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+  cursor: pointer; }
+
+tbody > tr:nth-child(even) > td {
+  background: #E1DDCF; }
+
+tbody > tr:nth-child(odd) > td {
+  background: #FBF7EF; }
+
+tbody {
+  position: relative;
+  display: block;
+  /*seperates the tbody from the header*/
+  width: 1000px;
+  height: 500px;
+  overflow: scroll; }
+
+tbody td {
+  padding: 8px;
+  transition: .25s padding; }
+  tbody td > span {
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden; }
+
+tbody > tr > td:nth-child(1) {
+  /*the first cell in each tr*/
+  position: relative;
+  display: block;
+  /*seperates the first column from the tbody*/
+  background-color: #6C6656;
+  color: #fff;
+  border-right: 1px solid #6C6656; }
+
+tbody > tr:hover > td {
+  background-color: #f1e3c6; }
+  tbody > tr:hover > td:nth-child(1) {
+    color: #000;
+    border-right-color: #F9F7F3; }
+
+tbody > tr.selected > td {
+  background-color: #e7ce9d; }
+  tbody > tr.selected > td:nth-child(1) {
+    color: #000;
+    border-right-color: #F9F7F3; }
+
+/*info-density settings*/
+.info-density-hi tbody > tr > td,
+.info-density-hi thead > tr > th {
+  padding: 6px;
+  font-size: 14px; }
+
+/*# sourceMappingURL=clever-table.css.map */

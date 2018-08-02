@@ -1,0 +1,135 @@
+
+@import "../../styles/_global";
+
+$table-width: $page-width;
+
+
+table {
+  position: relative;
+  z-index:1;
+  width: $table-width;
+  background-color: $page-bg;
+  overflow: hidden;
+  border-collapse: collapse;
+  border:0 none;
+  border-bottom: 1px solid $table-md;
+}
+
+
+/*thead*/
+thead {
+  position: relative;
+  display: block; /*seperates the header from the body allowing it to be positioned*/
+  width: $table-width;
+  overflow: visible;
+
+}
+
+thead th {
+  background-color: darken( $table-md, 5%);
+  //min-width: 120px;
+  border-bottom: 1px solid $page-bg;
+  border-right: 1px solid darken( $table-md, 5%);
+  padding:8px;
+  text-align:left;
+  font-weight: 700;
+  white-space:nowrap;
+
+  >span{
+    display:block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+
+
+}
+
+thead th:nth-child(1) {/*first cell in the header*/
+  position: relative;
+  display: block; /*seperates the first cell in the header from the header*/
+  background-color: $table-dk;
+  border-bottom: 1px;
+  border-right: 1px solid $table-dk;
+  color: #fff;
+  button{
+    color:$table-md ;
+  }
+}
+
+
+/*tbody*/
+
+tbody>tr>td{
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+  cursor:pointer;
+}
+tbody>tr:nth-child( even )>td{
+  background: $table-md;
+}
+
+tbody>tr:nth-child( odd )>td{
+  background: $table-lt;
+}
+
+tbody {
+  position: relative;
+  display: block; /*seperates the tbody from the header*/
+  width: $table-width;
+  height: 500px;//239px;
+  overflow: scroll;
+}
+
+tbody td {
+  //min-width: 120px;
+  padding:8px;
+  transition: .25s padding;
+  >span{
+    display:block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+}
+
+tbody>tr>td:nth-child(1) {  /*the first cell in each tr*/
+  position: relative;
+  display: block; /*seperates the first column from the tbody*/
+  background-color:  $table-dk;
+  color: #fff;
+  border-right: 1px solid $table-dk;
+}
+
+tbody>tr:hover>td{
+
+  background-color:  darken( $table-lt, 10% );
+  &:nth-child(1){
+    color:#000;
+    border-right-color: $page-bg;
+  }
+}
+
+tbody>tr.selected>td{
+
+  background-color:  darken( $table-lt, 20% );
+  &:nth-child(1){
+    color:#000;
+    border-right-color: $page-bg;
+  }
+}
+
+
+/*info-density settings*/
+
+.info-density-hi{
+  tbody>tr>td,
+  thead>tr>th
+  {
+    padding:6px;
+    font-size:14px;
+  }
+}
+
+

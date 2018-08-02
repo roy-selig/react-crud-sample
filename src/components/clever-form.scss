@@ -1,0 +1,84 @@
+
+@import "../../styles/_global";
+
+.clever-form{
+  transition:.5s right, .5s opacity;
+  position:absolute;
+  z-index:1;
+  top: 0;
+  right: -1000px;
+  width: 75%;
+  height: 100%;
+  background: darken( $table-lt, 20% );
+  padding:10px;
+
+  display:flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  opacity:0;
+
+  .showForm &{
+    right:0;
+    opacity:1;
+  }
+
+  .clever-form-title,
+  .clever-form-footer{
+    flex: 0 1 100%;
+    font-size: 24px;
+    font-weight: 700;
+    margin:10px;
+    height: 40px;
+    color: $table-dk;
+    border-bottom:1px solid $table-dk;
+  }
+
+  .clever-form-footer{
+    border:0;
+  }
+
+  .clever-form-cell{
+
+    margin:10px 10px;
+
+  }
+
+  .clever-form-label{
+    font-size: 16px;
+    font-weight: 500;
+    padding-left:5px;
+    padding-bottom: 4px;
+  }
+
+  .clever-form-field{
+    input{
+      font-size: 14px;
+      font-weight:normal;
+      border:1px solid  $table-dk;
+      padding:4px;
+      border-radius:4px;
+      outline:none;
+      width:100%;
+
+
+      &::placeholder{
+        color:#ccc;
+      }
+    }
+
+  }
+
+  button.submit{
+
+    border: 0 none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size:16px;
+    background:darkgreen;
+    color:#fff;
+
+  }
+
+
+
+}

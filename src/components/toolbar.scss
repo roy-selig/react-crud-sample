@@ -1,0 +1,81 @@
+@import "../../styles/_global";
+
+.toolbar {
+  display: flex;
+  width: $page-width;
+  justify-content: flex-start;
+  align-items: center;
+
+  &.for-header {
+    >span{
+      margin-bottom: 48px;
+    }
+  }
+
+  > span {
+
+    + span {
+      margin-left: 8px;
+    }
+  }
+  .title {
+    font-weight: 700;
+    font-size: 24px;
+    color: $table-dk;
+
+  }
+
+  .divider{
+
+    align-content:stretch;
+    display:inline-block;
+    padding: 16px 0 16px 8px;
+    margin-left:8px;
+    border-left:1px solid $table-dk;
+  }
+
+  .search-field {
+    padding: 4px;
+    background: #fff;
+    border: 1px solid $table-dk;
+    border-radius: 5px;
+    input[type=search] {
+      border: 0 none;
+      font-size: 16px;
+      outline: none;
+      &::placeholder{
+        color:#ccc;
+      }
+
+    }
+  }
+  .force-right {
+    margin-left: auto;
+  }
+
+
+  button{
+    color: $table-dk;
+    border:none;
+    background:transparent;
+    outline:none;
+    font-size:16px;
+    padding:8px;
+    border-radius:5px;
+    cursor:pointer;
+
+    &.selected{
+      background:$table-dk;
+      color: $table-lt;
+    }
+
+    &:hover{
+      color:$table-dk !important;
+      background: $table-lt;
+    }
+
+    + button{
+      margin-left:8px;
+    }
+  }
+}
