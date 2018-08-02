@@ -20,7 +20,7 @@ export default class Datasource {
 
     fetchColumnData(){
         var self = this;
-        var result = fetch(  this.columnDataAPI    )
+        fetch(  this.columnDataAPI    )
             .then( function(response){ return response.json(); /*needs error checking*/ } )
             .then( function( data ) { self.columns = data; } )
             .then( self.fetchData.bind(this) );

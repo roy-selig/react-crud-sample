@@ -3,9 +3,9 @@ import React from 'react';
 import CleverTableHeadRow from './clever-table-head-row.js'
 
 export default class CleverTableHeader extends React.Component {
-    constructor(props) {
-        super(props);
-    }
+    // constructor(props) {
+    //     super(props);
+    // }
     componentDidMount() {
         this.props.setTheadElementRef( this.refs.thead );
     }

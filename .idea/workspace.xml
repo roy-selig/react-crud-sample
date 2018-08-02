@@ -4,7 +4,10 @@
     <list default="true" id="386af1e0-3102-4ebe-9bdc-692d93619858" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/components/clever-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/clever-form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/clever-table-body-row.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/clever-table-body-row.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/clever-table-head-row.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/clever-table-head-row.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/clever-table-body.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/clever-table-body.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/clever-table-header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/clever-table-header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/datasource.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/datasource.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/info-density.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/info-density.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,7 +34,7 @@
           <entry key="css" value="9" />
           <entry key="gitignore" value="2" />
           <entry key="html" value="6" />
-          <entry key="js" value="55" />
+          <entry key="js" value="59" />
           <entry key="json" value="14" />
           <entry key="map" value="2" />
           <entry key="md" value="3" />
@@ -43,7 +46,7 @@
           <entry key="CSS" value="9" />
           <entry key="HTML" value="6" />
           <entry key="JSON" value="14" />
-          <entry key="JavaScript" value="55" />
+          <entry key="JavaScript" value="59" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="SCSS" value="24" />
@@ -55,7 +58,7 @@
           <entry key="css" value="240" />
           <entry key="gitignore" value="10" />
           <entry key="html" value="2" />
-          <entry key="js" value="12171" />
+          <entry key="js" value="12176" />
           <entry key="json" value="277" />
           <entry key="md" value="4084" />
           <entry key="scss" value="4859" />
@@ -66,7 +69,7 @@
           <entry key="CSS" value="240" />
           <entry key="HTML" value="2" />
           <entry key="JSON" value="277" />
-          <entry key="JavaScript" value="12171" />
+          <entry key="JavaScript" value="12176" />
           <entry key="Markdown" value="4017" />
           <entry key="PLAIN_TEXT" value="77" />
           <entry key="SCSS" value="4859" />
@@ -76,11 +79,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/clever-form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+            <state relative-caret-position="136">
+              <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
               <folding>
                 <element signature="e#1#27#0" expanded="true" />
               </folding>
@@ -88,11 +91,50 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/clever-table-header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="8" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="7" selection-end-column="8" />
+              <folding>
+                <element signature="e#1#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/clever-table-body-row.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+            <state relative-caret-position="66">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="7" selection-end-line="6" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/clever-table-body.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/datasource.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/info-density.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -143,24 +185,24 @@
         <option value="$PROJECT_DIR$/src/components/clever-form.scss" />
         <option value="$PROJECT_DIR$/styles/_global.scss" />
         <option value="$PROJECT_DIR$/src/components/info-density.scss" />
-        <option value="$PROJECT_DIR$/src/components/info-density.js" />
         <option value="$PROJECT_DIR$/src/components/Datasource.js" />
-        <option value="$PROJECT_DIR$/src/components/datasource.js" />
         <option value="$PROJECT_DIR$/src/components/toolbar.scss" />
         <option value="$PROJECT_DIR$/src/App.scss" />
         <option value="$PROJECT_DIR$/src/components/clever-table.scss" />
-        <option value="$PROJECT_DIR$/src/components/clever-table-header.js" />
         <option value="$PROJECT_DIR$/db.json" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/data/db.json" />
-        <option value="$PROJECT_DIR$/src/components/clever-table-body.js" />
         <option value="$PROJECT_DIR$/src/components/clever-table.js" />
         <option value="$PROJECT_DIR$/src/components/clever-table-head-row.js" />
-        <option value="$PROJECT_DIR$/src/components/clever-form.js" />
+        <option value="$PROJECT_DIR$/src/components/info-density.js" />
+        <option value="$PROJECT_DIR$/src/components/clever-table-body.js" />
+        <option value="$PROJECT_DIR$/src/components/clever-table-header.js" />
         <option value="$PROJECT_DIR$/src/components/clever-table-body-row.js" />
+        <option value="$PROJECT_DIR$/src/components/datasource.js" />
+        <option value="$PROJECT_DIR$/src/components/clever-form.js" />
       </list>
     </option>
   </component>
@@ -266,12 +308,12 @@
       <workItem from="1532778354363" duration="684000" />
       <workItem from="1532792273602" duration="61594000" />
       <workItem from="1533223177344" duration="6842000" />
-      <workItem from="1533242230381" duration="1191000" />
+      <workItem from="1533242230381" duration="1415000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70311000" />
+    <option name="totallyTimeSpent" value="70535000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="23" width="1408" height="865" extended-state="0" />
@@ -410,13 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/info-density.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/webpack/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -480,23 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/clever-table-header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="96" selection-start-line="17" selection-start-column="96" selection-end-line="17" selection-end-column="96" />
-          <folding>
-            <element signature="e#1#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/datasource.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -521,23 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/clever-table-body.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/clever-form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
-          <folding>
-            <element signature="e#1#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/clever-table-head-row.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
@@ -545,10 +546,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/info-density.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/clever-table-body.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/clever-table-header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <element signature="e#1#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/clever-table-body-row.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+        <state relative-caret-position="66">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="7" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/datasource.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/clever-form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+          <folding>
+            <element signature="e#1#27#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

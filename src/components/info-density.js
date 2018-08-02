@@ -21,16 +21,16 @@ export default class InfoDensity extends React.Component {
     }
 
     render() {
-        var self = this;
+        //var self = this;
 
         return (
             <div>
-                <button className={this.props.infoDensity=='info-density-lo' ? 'selected' : null}
+                <button className={this.props.infoDensity==='info-density-lo' ? 'selected' : null}
                         onClick={this.update.bind(this, 'info-density-lo')}>
                     <i className="fas fa-th-large"></i>
                 </button>
                 
-                <button className={this.props.infoDensity=='info-density-hi' ? 'selected' : null}
+                <button className={this.props.infoDensity==='info-density-hi' ? 'selected' : null}
                     onClick={this.update.bind(this, 'info-density-hi')}>
                     <i className="fas fa-th"></i>
                 </button>

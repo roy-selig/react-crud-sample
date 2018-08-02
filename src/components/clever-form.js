@@ -42,7 +42,7 @@ export default class CleverForm extends React.Component {
             switch( field.type ){
                 case "hidden":
                     return (null);
-                    break;
+
                 case "read-only":
                     input = (
                         <input type="text"
