@@ -63,6 +63,7 @@ class App extends Component {
 
     getRowData(evt){
         this.closeForm();
+        this.refs.table.reset();
         /*to-do: search should be debounced*/
 
         var self = this,
@@ -202,7 +203,9 @@ class App extends Component {
           </div>
           <div className="page">
             <div className="panel">
-                <CleverTable currentRowId={this.state.currentRowId}
+                <CleverTable
+                            ref="table"
+                            currentRowId={this.state.currentRowId}
                              setCurrentRow={this.setCurrentRow}
                              data={this.state}
                              datasource={this.datasource}

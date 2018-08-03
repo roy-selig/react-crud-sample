@@ -10,10 +10,12 @@ export default class CleverTable extends React.Component {
 
         this.setTheadElementRef = this.setTheadElementRef.bind(this);
         this.setTbodyElementRef = this.setTbodyElementRef.bind(this);
-
+        this.reset = this.reset.bind(this);
 
 
     }
+
+
 
     componentDidMount() {
         //pass the requested ref here
@@ -51,6 +53,12 @@ export default class CleverTable extends React.Component {
 
     componentWillUnmount(){
         this.tbody.removeEventListener("scroll");
+    }
+
+    reset(){
+        if(this.tbody && this.thead){
+            this.tbody.scrollLeft = 0;
+        }
     }
 
     setTheadElementRef( ref ){
